@@ -1,0 +1,72 @@
+body {
+    padding: 50px;
+    font-family: sans-serif;
+  }
+  
+  .logo {
+      height: 60px;
+  }
+  
+  .text-center {
+      text-align: center;
+  }
+  
+  .imgHolder {
+      background-image: url("./imgCar/text-solaris.png");
+      background-position: center 50px;
+      background-repeat: no-repeat;
+  }
+  
+  .colorsSelector {
+      text-align: center;
+  }
+  
+  .colorItem {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      background-color: #999;
+      display: inline-block;
+      margin: 0 10px;
+      cursor: pointer;
+  }
+  
+  .colorItem--active {
+      box-shadow: 0px 0px 0px 5px #81c101;
+  }
+  
+  .colorBlue {
+      background-color: #2870dc;
+      border: 0.5px solid black;
+  }
+  
+  .colorWhite {
+      background-color: #dfdbdbe9;
+      border: 0.5px solid black;
+  }
+  
+  .colorRed {
+      background-color: #f11414;
+      border: 0.5px solid black;
+  }
+  
+  .colorBlack {
+      background-color: #000000;
+      border: 0.5px solid black;
+  }
+  
+  .colorWhitePure {
+      background-color: #fffcfc;
+      border: 0.5px solid black;
+  }
+  
+  .colorOrange {
+      background-color: #f48a39;
+      border: 0.5px solid black;
+  }
+  
+  .colorGraphite {
+      background-color: #6a6868;
+      border: 0.5px solid black;
+  }
+  
